@@ -31,16 +31,16 @@ module.
 
 metar.sh [OPTIONS] [--] &lt;AIRPORT CODE&gt;
 
-| short option | long option | definition
-| ---        | ---                | ---
-| -h, -?, -v,| --help             | This message
-| -c,        | --use-metric, --si | Use metric units
-| -m,        | --no-humidity      | Don't print humidity information
-| -w,        | --no-wind          | Don't print wind speed/direction
-| -p,        | --no-pressure      | Don't print atmospheric pressure
-| -s,        | --no-sky-conditions| Don't print sky conditions
-| -n,        | --no-glyphs        | Don't print FontAwesome glyphs
-| -d &lt;char&gt;, | --delimiter &lt;char&gt; | Use &lt;char&gt; as a delimiter instead of "&#124;", only works with glyphs turned off.
+| short option    | long option              | definition
+| ---             | ---                      | ---
+| -h, -?, -v      | --help                   | This message
+| -c              | --use-metric, --si       | Use metric units
+| -m              | --no-humidity            | Don't print humidity information
+| -w              | --no-wind                | Don't print wind speed/direction
+| -p              | --no-pressure            | Don't print atmospheric pressure
+| -s              | --no-sky-conditions      | Don't print sky conditions
+| -n              | --no-glyphs              | Don't print FontAwesome glyphs
+| -d &lt;char&gt; | --delimiter &lt;char&gt; | Use &lt;char&gt; as a delimiter instead of "&#124;", only works with glyphs turned off.
 
 An airport code for your local airport can be found at
 https://www.iata.org/en/publications/directories/code-search/
