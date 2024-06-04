@@ -22,11 +22,11 @@ polybar's config.ini. The following is provided as an example entry for the
 module.
 
 ```ini
-    [module/metar]
-    type = custom/script
-    exec = ~/.config/polybar/metar.sh -s KOSU
-    interval = 180
-    label = %output%
+[module/metar]
+type = custom/script
+exec = ~/.config/polybar/metar.sh -s KOSU
+interval = 180
+label = %output%
 ```
 
 ## Usage
