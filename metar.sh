@@ -25,7 +25,7 @@ https://www.iata.org/en/publications/directories/code-search/
 If the glyphs are not showing up, make sure that you have Font Awesome 6 Free
 installed. Some fonts may also override the Font Awesome glyphs.
 HELP_MESSAGE
-            exit                                                            ;;
+                                                                   exit     ;;
         '-c'|'--use-metric'|'--si') USE_METRIC=true;        shift; continue ;;
         '-m'|'--no-humidity')       NO_HUMIDITY=true;       shift; continue ;;
         '-w'|'--no-wind')           NO_WIND=true;           shift; continue ;;
@@ -58,7 +58,7 @@ if [ -n "$1" ]; then
     if [ -n "$pymetarexe" ]; then
         metar=$($pymetarexe "$1")
     else
-        echo "Missing pymetar! Please install the python3-pymetar package."
+        echo "Missing pymetar! Please install python-pymetar."
         exit
     fi
 else
