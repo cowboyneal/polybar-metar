@@ -54,4 +54,4 @@ Surely.
 
 ## License
 
-Beatbot is released under the [BSD license](https://opensource.org/licenses/BSD-3-Clause).
+polybar-metar is released under the [BSD license](https://opensource.org/licenses/BSD-3-Clause).
