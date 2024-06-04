@@ -2,6 +2,11 @@
 
 A METAR data display for polybar.
 
+**polybar-metar** goes and gets the METAR data from an airport of your choosing
+and displays it in a concise manner, using the icons from Font Awesome.
+
+![Screenshot](https://raw.githubusercontent.com/cowboyneal/polybar-metar/master/polybar-metar-screenshot.png)
+
 ## Requirements
 
 1. polybar, or some other program that can swallow shell scripts
