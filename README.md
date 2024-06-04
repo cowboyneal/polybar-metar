@@ -21,11 +21,13 @@ Place the script somewhere where it can be run, and reference it from your
 polybar's config.ini. The following is provided as an example entry for the
 module.
 
+```ini
     [module/metar]
     type = custom/script
     exec = ~/.config/polybar/metar.sh -s KOSU
     interval = 180
     label = %output%
+```
 
 ## Usage
 
