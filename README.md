@@ -48,6 +48,10 @@ https://www.iata.org/en/publications/directories/code-search/
 If the glyphs are not showing up, make sure that you have Font Awesome 6 Free
 installed. Some fonts may also override the Font Awesome glyphs.
 
+## Bugs
+
+Surely.
+
 ## License
 
 Beatbot is released under the [BSD license](https://opensource.org/licenses/BSD-3-Clause).
