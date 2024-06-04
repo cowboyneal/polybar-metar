@@ -34,7 +34,7 @@ label = %output%
 metar.sh [OPTIONS] [--] &lt;AIRPORT CODE&gt;
 
 | short option    | long option              | definition
-| ---             | ---                      | ---
+| ------------    | ---                      | ---
 | -h, -?, -v      | --help                   | This message
 | -c              | --use-metric, --si       | Use metric units
 | -m              | --no-humidity            | Don't print humidity information
