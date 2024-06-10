@@ -12,7 +12,7 @@ and displays it in a concise manner, using the icons from [Font Awesome](https:/
 1. Polybar, or some other program that can swallow shell scripts
 2. Bash, of a modern variety
 3. bc, if not installed by default
-4. python-metar
+4. python-pymetar
 5. Font Awesome 6 Free
 
 ## Installation
