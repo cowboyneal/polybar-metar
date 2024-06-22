@@ -2,6 +2,16 @@
 
 me=$(basename $0)
 DELIMITER='|'
+GETOPT='getopt'
+[ -x '/usr/pkg/bin/getopt' ] && GETOPT='/usr/pkg/bin/getopt'
+[ -x '/usr/local/bin/getopt' ] && GETOPT='/usr/local/bin/getopt'
+[ -x '/usr/local/bin/gnugetopt' ] && GETOPT='gnugetopt'
+
+args=$($GETOPT -o 'h?vcmwpsnd:' --long 'help,no-humidity,no-wind,no-glyphs' \
+    --long 'no-pressure,no-sky-conditions,use-metric,si,delimiter:' \
+    -n "$me" -- "$@")
+eval set -- "$args"
+unset args
 
 while true; do
     case "$1" in

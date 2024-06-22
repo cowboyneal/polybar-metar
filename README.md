@@ -2,24 +2,26 @@
 
 A METAR data display for [Polybar](https://github.com/polybar/polybar).
 
-**polybar-metar** goes and gets the METAR data from an airport of your choosing
-and displays it in a concise manner, using the icons from [Font Awesome](https://fontawesome.com/).
+**polybar-metar** retrieves the METAR data from an airport of your choosing
+and displays it in a concise manner, using the icons from
+[Font Awesome](https://fontawesome.com/).
 
 ![Screenshot](https://raw.githubusercontent.com/cowboyneal/polybar-metar/master/polybar-metar-screenshot.png)
 
 ## Requirements
 
-1. Polybar, or some other program that can swallow shell scripts
-2. Bash, of a modern variety
-3. bc, if not installed by default
-4. python-pymetar
-5. Font Awesome 6 Free
+1. **Polybar**, or some other program that can swallow shell scripts
+2. **Bash**, of a modern variety
+3. GNU **getopt**, if using BSD
+4. **bc**, if not installed by default
+5. **python-pymetar** or **python-metar**
+6. **Font Awesome 6 Free**
 
 ## Installation
 
 Place the script somewhere where it can be run, and reference it from your
-polybar's config.ini. The following is provided as an example entry for the
-module.
+**Polybar**'s config.ini. The following is provided as an example entry for
+the module.
 
 ```ini
 [module/metar]
