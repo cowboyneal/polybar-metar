@@ -35,16 +35,49 @@ label = %output%
 
 metar.sh [OPTIONS] [--] &lt;AIRPORT CODE&gt;
 
-| short option    | long option              | definition
-| ------------    | -----------              | ----------
-| -h, -?, -v      | --help                   | This message
-| -c              | --use-metric, --si       | Use metric units
-| -m              | --no-humidity            | Don't print humidity information
-| -w              | --no-wind                | Don't print wind speed/direction
-| -p              | --no-pressure            | Don't print atmospheric pressure
-| -s              | --no-sky-conditions      | Don't print sky conditions
-| -n              | --no-glyphs              | Don't print FontAwesome glyphs
-| -d &lt;char&gt; | --delimiter &lt;char&gt; | Use &lt;char&gt; as a delimiter instead of "&#124;", only works with glyphs turned off.
+<table>
+  <tr>
+    <td>-h, -?, -v</td>
+    <td>--help</td>
+    <td>This message</td>
+  </tr>
+  <tr>
+    <td>-c</td>
+    <td>--use-metric, --si</td>
+    <td>Use metric units</td>
+  </tr>
+  <tr>
+    <td>-m</td>
+    <td>--no-humidity</td>
+    <td>Don't print humidity information</td>
+  </tr>
+  <tr>
+    <td>-w</td>
+    <td>--no-wind</td>
+    <td>Don't print wind speed/direction</td>
+  </tr>
+  <tr>
+    <td>-p</td>
+    <td>--no-pressure</td>
+    <td>Don't print atmospheric pressure</td>
+  </tr>
+  <tr>
+    <td>-s</td>
+    <td>-&#65279;-&#65279;no-&#65279;sky-&#65279;conditions</td>
+    <td>Don't print sky conditions</td>
+  </tr>
+  <tr>
+    <td>-n</td>
+    <td>--no-glyphs</td>
+    <td>Don't print FontAwesome glyphs</td>
+  </tr>
+  <tr>
+    <td>-&#65279;d&nbsp;&lt;char&gt;</td>
+    <td>-&#65279;-&#65279;delimiter&nbsp;&lt;char&gt;</td>
+    <td>Use &lt;char&gt; as a delimiter instead of "&#124;", only works
+        with glyphs turned off.</td>
+  </tr>
+</table>
 
 An airport code for your local airport can be found at
 https://www.iata.org/en/publications/directories/code-search/
