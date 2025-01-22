@@ -140,13 +140,13 @@ if [ -n "$USE_METRIC" ]; then
     printf "%s°C" "$temp_c"
 
     if [ -n "$windchill_c" ]; then
-        printf " (feels like %s°C)" "$windchill_c"
+        printf " (%s° wind chill)" "$windchill_c"
     fi
 else
     printf "%s°F" "$temp_f"
 
     if [ -n "$windchill_f" ]; then
-        printf " (feels like %s°F)" "$windchill_f"
+        printf " (%s° wind chill)" "$windchill_f"
     fi
 fi
 
