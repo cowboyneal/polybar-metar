@@ -207,7 +207,7 @@ case "$skyweather" in
     *thunder* | *lightning*)                    wicon='' ;;
     *snow* | *flurries*)                        wicon='' ;;
     *heavy\ rain* | *hail*)                     wicon='' ;;
-    *rain* | *drizzle*)                         wicon='' ;;
+    *rain* | *drizzle* | *precipitation* )      wicon='' ;;
     *mist* | *fog* | *smog* | *haze* | *smoke*) wicon='' ;;
     *broken\ clouds* | *few\ clouds* | *scattered\ clouds*)
         if [ $time_hour -ge 8 ] && [ $time_hour -lt 20 ]; then
