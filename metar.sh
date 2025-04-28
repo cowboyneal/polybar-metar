@@ -120,7 +120,7 @@ fi
 weather=$(echo "$metar" | grep Weather: | sed -r 's/^Weather:[[:space:]]//' \
     | tr '[[:upper:]]' '[[:lower:]]' | sed 's/none//')
 
-if [ -z "$NO_GLYPHS" ]; then
+if [ -z "$NO_GLYPHS" ] && [ "$temp_f" != "None" ]; then
     if (( $(echo "$temp_f >= 90" | bc -l) )); then
         printf ""
     elif (( $(echo "$temp_f >= 70" | bc -l) )); then
