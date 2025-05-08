@@ -102,7 +102,7 @@ fi
 
 if [ -z "$NO_PRESSURE" ]; then
     pressure=$(echo "$metar" | grep ^Pressure | awk '{ print $2 }' \
-        | sed 's/none//')
+        | sed 's/None//')
 
     if [ -n "$USE_METRIC" ]; then
         [ -n "$pressure" ] && pressure=$(echo "$pressure / 10" | bc -l \
